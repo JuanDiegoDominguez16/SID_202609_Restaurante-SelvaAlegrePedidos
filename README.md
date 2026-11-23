@@ -37,15 +37,15 @@ src/        Scripts SQL y PL/SQL (Entrega 3)
 - [Bitácora de reuniones](docs/bitacora-reuniones.md)
 - [Actas de reuniones en clase](docs/actas-clase.md)
 - [Bitácora de prompts de IA](docs/bitacora-prompts.md)
-- Entregas anteriores: [Entrega 0](docs/Entrega0.docsx) y [Entrega 1](docs/Entrega1.pdf).
+- Entregas anteriores: [Entrega 0](docs/Entrega0.pdf) y [Entrega 1](docs/Entrega1.pdf).
 - [Versiones anteriores de los modelos](docs/historico/) (solo consulta).
 
 ### `model/`
 
 | Modelo | PDF | Fuentes |
 |---|---|---|
-| Conceptual (MER) | [MER-V2.pdf](model/conceptual/MER-V2.pdf) | [ProyectoSIDMER-MR.zip](model/fuentes/ProyectoSIDMER-MR.zip) |
-| Relacional (3FN) | [Relational.pdf](model/relational/Relational.pdf) | [ProyectoSIDMER-MR.zip](model/fuentes/ProyectoSIDMER-MR.zip) |
+| Conceptual (MER) | [Logical.pdf](model/conceptual/Logical.pdf) | [ProyectoSIDMER-MR.zip](model/fuentes/ProyectoSIDMER-MR.zip) |
+| Relacional (3FN) | [Relational_1.pdf](model/relational/Relational_1.pdf) | [ProyectoSIDMER-MR.zip](model/fuentes/ProyectoSIDMER-MR.zip) |
 
 Un mismo proyecto de Data Modeler contiene el modelo lógico (MER) y el relacional.
 
@@ -53,7 +53,7 @@ Un mismo proyecto de Data Modeler contiene el modelo lógico (MER) y el relacion
 
 Reservada para la Entrega 3: script DDL, script DML (inserts), consultas DQL de los tres reportes y script PL/SQL (procedimiento, función y trigger).
 
-PL/SQL (ejecutar en orden después de `01_ddl.sql` y `02_dml.sql`): `04a_fn_total_pedido.sql`, `04b_sp_agregar_detalle_pedido.sql`, `04c_trg_sync_estado_mesa.sql` y `04d_pruebas_plsql.sql`. Documentación: [plsql-documentacion.md](docs/plsql-documentacion.md) y [guía de sustentación](docs/plsql-sustentacion.md).
+PL/SQL (ejecutar en orden después de `01_ddl.sql` y `02_dml.sql`):  `03_dql.sql`, `04a_fn_total_pedido.sql`, `04b_sp_agregar_detalle_pedido.sql`, `04c_trg_sync_estado_mesa.sql` y `04d_pruebas_plsql.sql`. Documentación: [plsql-documentacion.md](docs/plsql-documentacion.md) y [guía de sustentación](docs/plsql-sustentacion.md).
 
 ## Cómo abrir el modelo en Data Modeler
 
